@@ -3,7 +3,7 @@
     "Author": "BlueWaveXIV",
     "Name": "AutoPorter",
     "InternalName": "AutoPorter",
-    "AssemblyVersion": "0.1.0.3",
+    "AssemblyVersion": "0.1.0.4",
     "Description": "Standalone Studium Porter prize and lottery fulfilment with guarded incoming trades, exact item quantities and Gil installments capped at 1,000,000 per trade.",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/Ninethirty77/AutoPorter",
@@ -24,7 +24,7 @@
     "AcceptsFeedback": true,
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Ninethirty77/autoporter-repo/main/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Ninethirty77/autoporter-repo/main/latest.zip",
-    "LastUpdate": 1791275432,
-    "Changelog": "0.1.0.3: new Messages screen with editable condition-based templates, Gil replies, rarity messages and idle lists. Greetings always on; removed the old 50-greeting rotation and main-window chat clutter. Fixed idle resumption after winner departure and suppressed idle messages during open trades. Clarified trade timing multiplier."
+    "LastUpdate": 1791276180,
+    "Changelog": "0.1.0.4: editable nearby-character Say rules, exact full name and optional home world, distance and cooldown. One message per visit after a stable proximity check; active safe waiting only, no trade open. Added [CHARACTER] full-name placeholder. Automated suites pass; native in-game checks pending."
   }
 ]
