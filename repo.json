@@ -3,7 +3,7 @@
     "Author": "BlueWaveXIV",
     "Name": "AutoPorter",
     "InternalName": "AutoPorter",
-    "AssemblyVersion": "0.1.0.7",
+    "AssemblyVersion": "0.1.0.8",
     "Description": "Standalone Studium Porter prize and lottery fulfilment with guarded incoming trades, exact item quantities and Gil installments capped at 1,000,000 per trade.",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/Ninethirty77/AutoPorter",
@@ -24,7 +24,7 @@
     "AcceptsFeedback": true,
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Ninethirty77/autoporter-repo/main/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Ninethirty77/autoporter-repo/main/latest.zip",
-    "LastUpdate": 1791279648,
-    "Changelog": "0.1.0.7: Announce rewards on Discord button queues the FC-house collection message for @Studium Member in the Rewards channel through the existing Progress/Porter bot path. Saved request IDs, retry-safe queuing, five-minute cooldown and full Copy log; no Discord credentials in plugin. Automated checks pass; native button/end-to-end ping check pending."
+    "LastUpdate": 1791280290,
+    "Changelog": "0.1.0.8: nearby-character sequences support Say message or Emote actions for every step. Choose Emote and enter /bow, /wave or another game emote; optional motion supported. Mix emotes and delayed chat. Existing rules remain Say until edited. Emote commands are validated against the game sheet; delays, exact recipient guards and cancellation remain. Automated checks pass; native emote check pending."
   }
 ]
