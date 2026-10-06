@@ -1,1 +1,30 @@
-[]
+[
+  {
+    "Author": "BlueWaveXIV",
+    "Name": "AutoPorter",
+    "InternalName": "AutoPorter",
+    "AssemblyVersion": "0.1.0.2",
+    "Description": "Standalone Studium Porter prize and lottery fulfilment with guarded incoming trades, exact item quantities and Gil installments capped at 1,000,000 per trade.",
+    "ApplicableVersion": "any",
+    "RepoUrl": "https://github.com/Ninethirty77/AutoPorter",
+    "Tags": [
+      "rewards",
+      "porter"
+    ],
+    "CategoryTags": [
+      "utility"
+    ],
+    "DalamudApiLevel": 15,
+    "LoadRequiredState": 0,
+    "LoadSync": false,
+    "CanUnloadAsync": false,
+    "LoadPriority": 0,
+    "IconUrl": "https://raw.githubusercontent.com/Ninethirty77/autoporter-repo/main/icon.jpg",
+    "Punchline": "Guarded Studium prize and Gil fulfilment.",
+    "AcceptsFeedback": true,
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/Ninethirty77/autoporter-repo/main/latest.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/Ninethirty77/autoporter-repo/main/latest.zip",
+    "LastUpdate": 1791274134,
+    "Changelog": "0.1.0.2: standalone AutoPorter live fulfilment. Guarded incoming prize and lottery trades, exact stacks, combined Rewards Gil, 1,000,000 Gil cap and durable retry-safe reports. Unload AutoBuy before delivery. Automated checks pass; in-game validation remains pending."
+  }
+]
