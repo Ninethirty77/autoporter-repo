@@ -3,7 +3,7 @@
     "Author": "BlueWaveXIV",
     "Name": "AutoPorter",
     "InternalName": "AutoPorter",
-    "AssemblyVersion": "0.1.0.16",
+    "AssemblyVersion": "0.1.0.17",
     "Description": "Standalone Studium Porter prize and lottery fulfilment with guarded incoming trades, exact item quantities and Gil installments capped at 1,000,000 per trade.",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/Ninethirty77/AutoPorter",
@@ -24,7 +24,7 @@
     "AcceptsFeedback": true,
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Ninethirty77/autoporter-repo/main/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Ninethirty77/autoporter-repo/main/latest.zip",
-    "LastUpdate": 1793094445,
-    "Changelog": "0.1.0.16: Keep wallet and stock reporting active while fulfilment is paused, without resuming prize deliveries or messages. One-minute heartbeat and wallet change updates continue when safely idle. Preview, emergency stop, active trade, unsafe-state, authorization and recovery safeguards remain. After loading, manually Start then Pause once to authorize reporting."
+    "LastUpdate": 1793095439,
+    "Changelog": "0.1.0.17: Attempt Gil replies immediately after confirmed payment, bypassing item-delivery delay and queue refresh. Replace old queued balances and discard the next-trade prompt when its recipient opens another trade, preventing more-Gil messages after final payment. Shared chat throttle and all payment/receipt safeguards preserved."
   }
 ]
